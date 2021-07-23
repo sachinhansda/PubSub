@@ -18,7 +18,7 @@ func DeleteSubscription(SubscriptionID int) {
 
 }
 
-func Publish(topicID int, message) {
+func Publish(topicID int, message string) {
 
 }
 
