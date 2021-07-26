@@ -2,22 +2,27 @@ package main
 
 import "fmt"
 
+//function to create a topic
 func CreateTopic(topicID int) {
 
 }
 
+//function to delete a topic
 func DeleteTopic(TopicID int) {
 
 }
 
+//function creates and adds subscription with id SubscriptionID to topic with id topicID
 func AddSubscription(topicID,SubscriptionID int) {
 
 }
 
+//function to delete a subscription with id SubscriptionID
 func DeleteSubscription(SubscriptionID int) {
 
 }
 
+//function to publish message on the topic with id topicID
 func Publish(topicID int, message string) {
 
 }
@@ -30,10 +35,12 @@ func UnSubscribe(SubscriptionID int) {
 
 }
 
+//function to acknowledge that the message has been received and processed
 func Ack(SubscriptionID, MessageID int) {
 
 }
 
+//main function
 func main() {
 	CreateTopic(topicID)
   DeleteTopic(TopicID)
