@@ -27,10 +27,12 @@ func Publish(topicID int, message string) {
 
 }
 
+//function to subscribe a subscription with id SubscriptionID
 func Subscribe(SubscriptionID int, SubscriberFunc) {
 
 }
 
+//function to unsubscribe a subscription with id SubscriptionID
 func UnSubscribe(SubscriptionID int) {
 
 }
